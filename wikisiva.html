@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Wiki Front Page</title>
+    <link rel="stylesheet" href="stylu.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Food Wiki</h1>
+        </header>
+        <section class="floating-vegetables">
+            <img src="image/float-Tomato.png" alt="Vegetable 1" class="floating-veg">
+            <img src="image/carrot.png" alt="Vegetable 2" class="floating-veg">
+        </section>
+        <main>
+            <section class="titles">
+                <div class="title" onclick="toggleDetails('details1', event)">
+                    <h2>Ambur Biryani</h2>
+                </div>
+                <div id="details1" class="details">
+                    <h2>Ambur Biryani</h2>
+                    <img src="image/ambur-biryani-2.jpeg" alt="Ambur Biryani" class="recipe-image">
+                    <div class="recipe-info">
+                        <p><strong>Prep time:</strong> 1 hour</p>
+                        <p><strong>Cook time:</strong> 30 mins</p>
+                        <p><strong>Total time:</strong> 1 hour 30 mins</p>
+                        <p><strong>Author:</strong> Ash</p>
+                        <p><strong>Recipe type:</strong> Lunch, Dinner</p>
+                        <p><strong>Cuisine:</strong> Indian</p>
+                        <p><strong>Serves:</strong> 8</p>
+                    </div>
+
+                    <h3 onclick="toggleSection('ingredients1')">Ingredients</h3>
+                    <div id="ingredients1" class="section-content">
+                        <ul>
+                            <li>3 cups of seeraga samba rice</li>
+                            <li>3 pounds or one whole chicken, cut to large chunks with bone</li>
+                            <li>1 extra large red onion or 3 small onions, cut to lengthwise</li>
+                            <li>10-15 red chilies</li>
+                            <li>10 cloves garlic, peeled</li>
+                            <li>2 inches ginger, peeled and chopped</li>
+                            <li>4 small tomatoes, chopped</li>
+                            <li>1 packed cup mint leaves, chopped</li>
+                            <li>⅓ cup of veg oil</li>
+                            <li>2 tbsp ghee</li>
+                            <li>5 whole cardamom</li>
+                            <li>3 cloves</li>
+                            <li>1 inch cinnamon stick</li>
+                            <li>2 bay leaves</li>
+                            <li>1 black cardamom</li>
+                            <li>1 star anise</li>
+                            <li>½ cup full fat sour yogurt</li>
+                            <li>Juice of one lemon</li>
+                            <li>⅓ tsp turmeric powder</li>
+                            <li>Salt</li>
+                            <li>1 tbsp biryani masala</li>
+                            <li>5 cups of water</li>
+                        </ul>
+                    </div>
+
+                    <h3 onclick="toggleSection('instructions1')">Instructions</h3>
+                    <div id="instructions1" class="section-content">
+                        <ol>
+                            <li>Wash the rice gently and soak for 30 minutes.</li>
+                            <li>Wash the chicken with turmeric, drain the water, and let it sit.</li>
+                            <li>Cut the onions lengthwise.</li>
+                            <li>In a bowl, add the red chilies, ginger, and garlic. Let them soak for 10 minutes in boiling water. Grind to a paste and set aside.</li>
+                            <li>Chop the tomatoes.</li>
+                            <li>Cut the mint and cilantro.</li>
+                            <li>Take a heavy-bottomed large pot to make the biryani.</li>
+                            <li>Add oil and ghee. Toss in the spices and make sure not to burn them.</li>
+                            <li>Add the onions and reduce the heat to medium. Cook the onions till they are almost crispy and super soft.</li>
+                            <li>Add the chilly paste. Saute and cook the paste until it loses the raw smell of ginger and garlic, which will take 5 to 10 minutes on low heat.</li>
+                            <li>Add the mint and cilantro and cook for another 2 minutes before adding the tomatoes. Cook the tomatoes for 2 minutes.</li>
+                            <li>Add the chicken, salt, biryani masala, and turmeric powder. Keep mixing and tossing the chicken very well and cook it until it’s about 70 percent cooked.</li>
+                            <li>Add the yogurt and mix very well. There should be very little liquid at this point as the water from the tomatoes should have evaporated.</li>
+                            <li>Pour the rice and the water into the pot. Mix well and check for salt. Let the mixture come to a bubble.</li>
+                            <li>Once the rice and chicken come to a bubble, pour in the juice of the lemon. Cover the pot with a tight lid (important).</li>
+                            <li>Place the pot on a heavy-bottomed tawa and cook on a dum for 30 minutes over a very low flame.</li>
+                            <li>After 30 minutes, switch off the flame and bring the pot to the countertop. Let it sit for another 30 minutes before serving.</li>
+                        </ol>
+                    </div>
+
+                    <h3 onclick="toggleSection('notes1')">Notes</h3>
+                    <div id="notes1" class="section-content">
+                        <!-- Notes List -->
+                    </div>
+                </div>
+
+                <div class="title" onclick="toggleDetails('details2', event)">
+                    <h2>Chicken Curry</h2>
+                </div>
+                <div id="details2" class="details">
+                    <h2>Everyday Chicken Curry</h2>
+                    <img src="image/chicken-curry.jpg" alt="Everyday Chicken Curry" class="recipe-image">
+                    <div class="recipe-info">
+                        <p><strong>Prep time:</strong> 15 mins</p>
+                        <p><strong>Cook time:</strong> 30 mins</p>
+                        <p><strong>Total time:</strong> 45 mins</p>
+                        <p><strong>Author:</strong> Ash</p>
+                        <p><strong>Recipe type:</strong> Lunch, Dinner</p>
+                        <p><strong>Cuisine:</strong> Indian</p>
+                        <p><strong>Serves:</strong> 4</p>
+                    </div>
+
+                    <h3 onclick="toggleSection('ingredients2')">Ingredients</h3>
+                    <div id="ingredients2" class="section-content">
+                        <ul>
+                            <li><strong>For the Spice Powder:</strong></li>
+                            <li>1 inch cinnamon stick</li>
+                            <li>3 cloves</li>
+                            <li>3 cardamom pods</li>
+                            <li>2 tsp coriander seeds</li>
+                            <li>1 tsp cumin seeds</li>
+                            <li>½ tsp fennel seeds</li>
+                            <li>10 curry leaves (optional)</li>
+                            <li>6-10 red chilies (according to your spice level)</li>
+                            <li><strong>For Chicken Curry:</strong></li>
+                            <li>3 tbsp veg oil</li>
+                            <li>2 bay leaves</li>
+                            <li>2 medium onions or 1 large, very finely chopped</li>
+                            <li>2 tbsp ginger garlic paste</li>
+                            <li>1 tsp green chili paste</li>
+                            <li>1 whole chicken with bones, cut into pieces (about 2 pounds)</li>
+                            <li>⅓ tsp turmeric powder</li>
+                            <li>1 tsp kashmiri red chili powder</li>
+                            <li>3 tomatoes, pureed</li>
+                            <li>½ cup yogurt</li>
+                            <li>Salt</li>
+                            <li>½ cup chopped cilantro</li>
+                        </ul>
+                    </div>
+
+                    <h3 onclick="toggleSection('instructions2')">Instructions</h3>
+                    <div id="instructions2" class="section-content">
+                        <ol>
+                            <li>In a pan, add all the ingredients for the spice powder. Slow roast and powder it. You can save this in an airtight container and use it later. This measurement is for this chicken curry.</li>
+                            <li>In a heavy-bottomed pan, add oil. Add the bay leaves and onions. Sprinkle some salt and cook until the onions are a little brown and golden.</li>
+                            <li>Add the ginger-garlic paste, chili paste and roast and cook for another 3-5 minutes.</li>
+                            <li>Add the cleaned chicken, with some salt, red chili powder, and turmeric. Saute and brown the chicken, turning it.</li>
+                            <li>Sprinkle all the powdered masala, mix well. Add the tomatoes puree, mix, and add the yogurt and salt. Mix everything very well.</li>
+                            <li>Add 2 cups of water, bring it to a boil, toss in cilantro, cover, and cook for 20-25 minutes.</li>
+                            <li>Open the lid and cook for another 5 minutes.</li>
+                            <li>Serve hot with some plain rice or rotis.</li>
+                        </ol>
+                    </div>
+
+                    <h3 onclick="toggleSection('notes2')">Notes</h3>
+                    <div id="notes2" class="section-content">
+                        <!-- Notes List -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="Scriptu.js"></script>
+</body>
+
+</html>
